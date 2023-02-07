@@ -57,7 +57,7 @@
 				  sReaction.push(allergy[i].reaction[j].manifestation[0].text);
 		  	    } 
 			  }
-			  algtbl += "<tr><td>"+ allergy[i].code.text+"</td>"+sR.join(", ")+"</td></tr>";
+			  algtbl += "<tr><td>"+ allergy[i].code.text+"</td>"+sReaction.join(", ")+"</td></tr>";
 		  }
           if (alglen === 0) {
 			  algtbl + = "<tr><td>no allergies</td></tr>";
