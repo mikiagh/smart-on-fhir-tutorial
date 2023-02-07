@@ -22,7 +22,7 @@
                   });
 		var algint = smart.patient.api.fetch ({
                     type: 'AllergyIntolerance'
-		)};
+		});
 		
 
         $.when(pt, obv, algint).fail(onError);
