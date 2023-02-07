@@ -66,6 +66,7 @@
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
+		  p.alg = "an allergy";
 
           ret.resolve(p);
         });
@@ -90,6 +91,7 @@
       diastolicbp: {value: ''},
       ldl: {value: ''},
       hdl: {value: ''},
+	  alg: {value: ''}
     };
   }
 
@@ -133,6 +135,7 @@
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
     $('#hdl').html(p.hdl);
+	$('#allergy').html(p.alg);
   };
 
 })(window);
