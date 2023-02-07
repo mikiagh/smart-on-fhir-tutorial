@@ -60,7 +60,7 @@
 			  algtbl += "<tr><td>"+ allergy[i].code.text+"</td>"+sReaction.join(", ")+"</td></tr>";
 		  }
           if (alglen === 0) {
-			  algtbl + = "<tr><td>no allergies</td></tr>";
+			  algtbl += "<tr><td>no allergies</td></tr>";
 		  }
 		  algtbl += "</table>";
 		  		  p.alg = algtbl;
