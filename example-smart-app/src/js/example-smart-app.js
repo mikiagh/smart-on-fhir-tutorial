@@ -53,7 +53,7 @@
 		  for (var i=0;i<alglen;i++){
 			  var sReaction=[];
 			  if (allergy[i].reaction !== undefined) {
-			    for (var j=0;jlen=allergy[i].reaction.length;j<jlen;j++) {
+			    for (var j=0,jlen=allergy[i].reaction.length;j<jlen;j++) {
 				  sReaction.push(allergy[i].reaction[j].manifestation[0].text);
 		  	    } 
 			  }
