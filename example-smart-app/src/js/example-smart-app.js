@@ -63,7 +63,6 @@
 			  algtbl += "<tr><td>no allergies</td></tr>";
 		  }
 		  algtbl += "</table>";
-		  		  p.alg = algtbl;
 		  
           var p = defaultPatient();
           p.birthdate = patient.birthDate;
@@ -82,7 +81,7 @@
 
           p.hdl = getQuantityValueAndUnit(hdl[0]);
           p.ldl = getQuantityValueAndUnit(ldl[0]);
-
+          p.alg = algtbl;
 
           ret.resolve(p);
         });
