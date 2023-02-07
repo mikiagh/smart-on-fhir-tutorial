@@ -21,7 +21,8 @@
                     }
                   });
 		var algint = smart.patient.api.fetchAll ({
-                    type: 'AllergyIntolerance'
+                    type: 'AllergyIntolerance',
+					query: {}
 		});
 		
 
